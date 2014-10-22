@@ -13,6 +13,8 @@
 		05DC460F19F70C7B00C05D99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DC460E19F70C7B00C05D99 /* Images.xcassets */; };
 		05DC461219F70C7B00C05D99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DC461019F70C7B00C05D99 /* LaunchScreen.xib */; };
 		05DC461E19F70C7B00C05D99 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DC461D19F70C7B00C05D99 /* PostcardTests.swift */; };
+		05DC462E19F73DA600C05D99 /* Ed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 05DC462D19F73DA600C05D99 /* Ed.jpeg */; };
+		05DC463019F82EEA00C05D99 /* HLU3550DK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DC462F19F82EEA00C05D99 /* HLU3550DK.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		05DC461719F70C7B00C05D99 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DC461C19F70C7B00C05D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05DC461D19F70C7B00C05D99 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		05DC462D19F73DA600C05D99 /* Ed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ed.jpeg; sourceTree = "<group>"; };
+		05DC462F19F82EEA00C05D99 /* HLU3550DK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HLU3550DK.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		05DC460519F70C7B00C05D99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05DC462F19F82EEA00C05D99 /* HLU3550DK.jpg */,
+				05DC462D19F73DA600C05D99 /* Ed.jpeg */,
 				05DC460619F70C7B00C05D99 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				05DC460D19F70C7B00C05D99 /* Main.storyboard in Resources */,
+				05DC462E19F73DA600C05D99 /* Ed.jpeg in Resources */,
 				05DC461219F70C7B00C05D99 /* LaunchScreen.xib in Resources */,
 				05DC460F19F70C7B00C05D99 /* Images.xcassets in Resources */,
+				05DC463019F82EEA00C05D99 /* HLU3550DK.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
